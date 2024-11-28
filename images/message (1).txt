@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    }
+    .logo{
+        backgsround-color: 
+        #e6e0d4
+        #bbb9af
+        #f2ede4
+        #fff3e6
+        #121212
+        #735646;
+        }
+    body{
+    background-color: #fff3e6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+
+    .navitems{ 
+        position: relative;
+        top : 6px;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+        
+    
+    }
+
+    
+
+    .logo {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    
+    
+    }
+    
+    .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+    
+    
+    }
+    
+    .menu .navbar ul li {
+    position: relative;
+    float: left;
+    right: 250px;
+    
+    }
+    
+    .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+    display: block;
+    }
+    
+    .menu .navbar ul li a:hover{
+    color: #EFB810;
+    
+    
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    .menu-icono{
+    width: 25px;
+    }
+    
+    .menu label {
+    cursor: pointer;
+    display: none;
+    }
+    
+    @media(max-width:900px) {
+    
+        .menu {
+            padding: 20px;
+        }
+    
+        .menu label {
+            display: initial;
+            
+        }
+    
+        .background {
+            padding: 40px 0;
+        }
+    
+        .menu .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #1212125e;
+            display: none;
+            
+        }
+
+    
+        .menu .navbar ul li {
+            width: 100%;
+            left: 1px;
+            
+        }
+    
+        #menu:checked ~ .navbar {
+            display: initial;
+        }
+
+        .iconos {
+            display: none;
+        }
+        
+        
+    }
+    
+    .hero{
+    margin-top: 100px;
+    position: relative;
+    background-color: red;
+    }
+    .cont-banner { 
+        background-color: #0006;
+        z-index: 12;
+        height: 100%;
+    }
+    .banner {
+        height: 600px;
+        background-image: url(./hero.jpg); 
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .iconos { 
+        position: relative;
+        cursor:pointer;
+    }
+
+    h1 { 
+        position: relative;
+        top:150px;
+        font-size: 60px;
+        color: #fff3e6;
+        
+    }
+
+.h1cont { 
+    max-width: 450px;
+    position: relative;
+    left: 25%;
+    
+    
+}
+
+.btn { 
+    position: absolute;
+    top: 450px;
+    border: solid 1px #000;
+    color: white;
+    background-color: #000;
+}
+
+.text-cont {
+    max-width: 730px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    height: 300px;
+}
+
+.link-Learn {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+h2 { 
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+a { 
+    text-decoration: none;
+}
+
+.card-cont{ 
+
+    
+    margin: 0 auto;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.card1 { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card2 { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card3 { 
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card-img { 
+    background-image: url(ceramica.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
